@@ -3,7 +3,16 @@ Write a function called printNames that takes in an array of objects. It should
 loop through all of the objects and print the "name" key from each object.
 */
 
-// Your code here 
+// Your code here
+const printNames = (objects) => ({
+  for (let obj of objects) {
+    if (obj.hasOwnProperty('name')) {
+        console.log(obj.name);
+    }
+  }
+})
+
+
 
 // Example:
 // printNames([
