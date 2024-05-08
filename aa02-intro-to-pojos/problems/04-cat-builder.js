@@ -5,7 +5,12 @@ object with a key of "name", "color", and "toys" that correspond to the
 arguments passed in.
 */
 
-// Your code here 
+// Your code here
+let catBuilder = (name, color, toys) => {
+  name: name,
+  color: color,
+  toys: toys;
+};
 
 // console.log(catBuilder("Whiskers", "black", ["scratching-post", "yarn"]));
 // //=> { name: 'Whiskers', color: 'black', toys: ['scratching-post', 'yarn'] }
